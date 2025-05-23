@@ -1,0 +1,1 @@
+# dithering-automator-updates
