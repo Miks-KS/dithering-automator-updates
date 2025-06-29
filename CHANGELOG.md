@@ -13,7 +13,7 @@ Welcome to D1TH3R1NG 4UTOM4TOR! This is the first release of this image ditherin
 
 ### Key Features
 
-#### Core Dithering Engine
+#### 30+ Dithering Algorithms
 - **Error Diffusion**: Floyd-Steinberg, Atkinson, Burkes, Sierra, and more
 - **Ordered Dithering**: Bayer matrices (2x2, 4x4, 8x8, 16x16)
 - **Other Dithering Types**: 1D, frequency modulation, blue noise, pattern, clustered dot, etc.
