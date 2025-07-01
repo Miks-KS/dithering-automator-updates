@@ -1,0 +1,11 @@
+{
+  "latest_version": "1.0.0",
+  "release_notes": "**What's New:** Initial release",
+  "critical": false,
+  "release_date": "2025-07-01",
+  "changelog_url": "https://github.com/Miks-KS/dithering-automator-updates/blob/main/CHANGELOG.md#100---2025-07-01",
+  "download_info": {
+    "source": "LemonSqueezy",
+    "instructions": "Download the latest version from your LemonSqueezy account."
+  }
+}
