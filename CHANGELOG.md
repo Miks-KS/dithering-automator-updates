@@ -5,6 +5,33 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.1.0] - 2025-07-08
+
+### ✨ **New Features**
+
+#### **Auto-Sort Color Palette**
+- Added auto-sort functionality for Custom Palette color swatches
+- New auto-sort button (Flare Icon) next to "Current Palette" header
+- Sorts colors from darkest to lightest based on luminance
+- Purely cosmetic feature - no impact on dithering algorithms or color mapping
+- Makes it easier to visualize color gradients and transitions in your palette
+- You can click this button every time you want to clean up your palette and sort it again after adding new colors, for example
+
+#### **Image Adjustment Reset Control**
+- Added new "Behavior" tab in Preferences (Settings > Preferences/Settings)
+- New preference option to control whether image adjustments (brightness, contrast, levels, etc.) are automatically reset when uploading new images
+- Setting only applies when no custom preset is active - preset image adjustments are always preserved
+- Option is enabled by default to maintain current behavior
+
+### 🐛 **Bug Fixes**
+
+#### **Sharpen Slider Improvements**
+- **Fixed:** Sharpen slider positions 6-10 had no effect
+- The Sharpen slider now provides progressive sharpening intensity across the full 0-10 range
+
+---
+
 ## [1.0.0] - 2025-07-01
 
 ### Initial Release
