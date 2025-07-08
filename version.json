@@ -1,9 +1,9 @@
 {
-  "latest_version": "1.0.0",
-  "release_notes": "**What's New:** Initial release",
+  "latest_version": "1.1.0",
+  "release_notes": "**New Features:**\n• Auto-sort button for color swatches in Custom Palettes\n• Image adjustments reset control in Preferences\n\n**Bug Fixes:**\n• Fixed sharpen slider positions 6-10 having no effect",
   "critical": false,
-  "release_date": "2025-07-01",
-  "changelog_url": "https://github.com/Miks-KS/dithering-automator-updates/blob/main/CHANGELOG.md#100---2025-07-01",
+  "release_date": "2025-07-08",
+  "changelog_url": "https://github.com/Miks-KS/dithering-automator-updates/blob/main/CHANGELOG.md#110---2025-07-08",
   "download_info": {
     "source": "LemonSqueezy",
     "instructions": "Download the latest version from your LemonSqueezy account."
