@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2025-07-26
+
+### ✨ New Features
+
+**Canvas size limit protection**
+- Added validation system to prevent corrupted image exports when upscale settings exceed browser canvas limits
+- Upscale controls automatically disable when the next increment would be unsafe
+
+**Auto-clamping resolution changes**
+- When adjusting the resolution slider, the upscale percentage automatically reduces to safe values if needed
+- Prevents users from getting stuck in invalid export configurations
+- Shows notifications explaining when/why upscale was adjusted
+
+This update prevents the corrupted export issue that could occur with very large upscale percentages on high resolution images.
+
+### 🔧 Improvements
+**Improved license system**
+- Improved reliability and responsiveness of license monitoring
+- Better real time license status updates
+
+---
 
 ## [1.1.0] - 2025-07-08
 
