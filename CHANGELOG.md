@@ -5,6 +5,59 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2025-08-01
+
+### ✨ New Features
+
+**More randomization control**
+- Added "Randomization Behavior" option in Preferences (Settings menu) with three modes:
+  - **Everything** (default) - Randomizes both algorithm and colors
+  - **Algorithm only** - Randomizes algorithm, preserves colors  
+  - **Colors only** - Randomizes colors, preserves algorithm
+- Duplicate prevention ensures that consecutive clicks always produce different results
+
+![Randomization Preferences](./docs/images/randomize_preferences.png)  
+
+**"Add to favorites" button for custom presets and palettes**
+- A new ♥ button for adding custom presets and color palettes to favorites (up to 20 favorites)
+- Presets and palettes added to Favorites will be pinned at the top of the list
+- This feature is backwards compatible - existing presets and palettes from previous versions of the app will be preserved
+
+![Favorites](./docs/images/favorites.png)  
+
+**Added undo/redo shortcuts**
+- Added undo and redo keyboard shortcuts (Ctrl/Cmd + Z, Ctrl/Cmd + Shift + Z).
+- Work the same way as the existing undo and redo buttons in the app UI
+- Also accessible through the Edit menu
+
+**New icons for custom patterns cards**
+- Very minor update - replaced the Edit pattern and Rename pattern icons in the Custom Patterns Manager window with different ones to make them more cohesive with icons used in other sections of the app
+
+![Custom pattern icons](./docs/images/custom-pattern-icons.png)  
+
+**New color palettes**
+- Added 6 new color palettes presets
+
+![Color Palettes](./docs/images/color-palettes.png)  
+
+### 🔧 Improvements
+**Removed Ctrl/Cmd + W and Ctrl/Cmd + R accelerators**
+- Removed the Ctrl/Cmd + W and Ctrl/Cmd + R keyboard shortcuts to prevent accidentally closing or reloading the app while working
+- These options are still accessible from the app menu if needed
+
+**Loading indicator in Batch Process modal**
+- Added a loading spinner indicator that shows up when loading files in the Batch Processor
+- The spinner will appear if file loading takes longer than 500ms
+- This is just a small UX improvement that prevents the modal from staying blank for a while and looking like it's frozen when loading a lot of images
+
+![Batch process loading](./docs/images/batch-process-spinner.png)  
+
+### 🐛 **Bug Fixes**
+**Fixed Joy Plot color option switching behavior**
+- Fixed an issue where the color option wouldn't switch to Custom Palette when selecting the Joy Plot algorithm while the Custom Color Preset option was selected
+
+---
+
 ## [1.2.0] - 2025-07-26
 
 ### ✨ New Features
