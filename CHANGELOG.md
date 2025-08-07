@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.3.1] - 2025-08-04
 
-### 🔧 Maintenance
+### ⚙️ Maintenance
 - Framework and dependencies updates
 
 ---
@@ -47,7 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ![Color Palettes](./docs/images/color-palettes.png)  
 
-### 🔧 Improvements
+### 🔧 Changes/improvements
 **Removed Ctrl/Cmd + W and Ctrl/Cmd + R accelerators**
 - Removed the Ctrl/Cmd + W and Ctrl/Cmd + R keyboard shortcuts to prevent accidentally closing or reloading the app while working
 - These options are still accessible from the app menu if needed
@@ -80,7 +80,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This update prevents the corrupted export issue that could occur with very large upscale percentages on high resolution images.
 
-### 🔧 Improvements
+### 🔧 Changes/improvements
 **Improved license system**
 - Improved reliability and responsiveness of license monitoring
 - Better real time license status updates
