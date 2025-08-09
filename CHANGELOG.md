@@ -37,11 +37,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Work the same way as the existing undo and redo buttons in the app UI
 - Also accessible through the Edit menu
 
-**New icons for custom patterns cards**
-- Very minor update - replaced the Edit pattern and Rename pattern icons in the Custom Patterns Manager window with different ones to make them more cohesive with icons used in other sections of the app
-
-![Custom pattern icons](./docs/images/custom-pattern-icons.png)  
-
 **New color palettes**
 - Added 6 new color palettes presets
 
@@ -51,6 +46,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Removed Ctrl/Cmd + W and Ctrl/Cmd + R accelerators**
 - Removed the Ctrl/Cmd + W and Ctrl/Cmd + R keyboard shortcuts to prevent accidentally closing or reloading the app while working
 - These options are still accessible from the app menu if needed
+
+**New icons for custom patterns cards**
+- Very minor update - replaced the Edit pattern and Rename pattern icons in the Custom Patterns Manager window with different ones to make them more cohesive with icons used in other sections of the app
+
+![Custom pattern icons](./docs/images/custom-pattern-icons.png)  
 
 **Loading indicator in Batch Process modal**
 - Added a loading spinner indicator that shows up when loading files in the Batch Processor
