@@ -5,6 +5,81 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2025-08-18
+
+### ✨ New Features
+
+**Automated color separation**
+- Added a new "Export Color Layers" button in the Export section that automatically separates dithered images by color during export (for screen printing and other applications)
+
+![Color separation export](./docs/images/1.4.0-color-separation-export.png)
+
+- Analyzes the final dithered image and exports individual PNG files with transparent backgrounds for each color
+- Includes a reference image (all colors combined) alongside the separated layers
+- Keeps upscale percentage and all other settings just like the regular single image download function
+- Adds a color hex code suffix to each file for easy identification (ex. my_image_FF0000.png)
+- Added instructions for this new feature in the app Documentation (Export features section)
+
+![Color separation files](./docs/images/1.4.0-color-separation-files.png)
+
+![Color separation layers](./docs/images/1.4.0-color-separations-layers.gif)
+
+**UI theme customization**
+- Added a new Theme section in the Preferences menu to customize the app theme and the accent color
+- There now are 7 themes to choose from (Darkroom, Studio, Workshop, Observatory, Factory, Atelier and Laboratory), and 9 accent colors to combine them with
+
+![App theme preferences](./docs/images/1.4.0-app-themes-preferences.png)
+
+![App themes](./docs/images/1.4.0-app-themes.png)
+
+### 🔧 Changes/improvements
+
+**Ordered dithering color mapping improvements**
+- Fixed "blocky" color mapping when using Bayer dithering algorithms with exactly 3 colors + Custom Palette color option
+- This fix produces more detailed patterns and better color transitions
+
+![Ordered dithering colors](./docs/images/1.4.0-ordered-dithering-color-mapping.png)  
+
+**Better Levels histogram**
+- Improved the Levels histogram to make it more accurate
+- It's now a RGB composite histogram (instead of luminance-based like before)
+
+![Levels histogram](./docs/images/1.4.0-levels-histogram.png)  
+
+**Menu option for documentation modal**
+- Added a new menu option (Help -> Documentation) to access the user guide modal directly from the app menu instead of only from the main app UI
+
+![Help menu documentation](./docs/images/1.4.0-help-documentation.png)  
+
+**Added keyboard shortcuts list**
+- Added a list of all the keyboard shortcuts of the app in the Documentation modal (Navigation & Controls section)
+
+![Keyboard shortcuts](./docs/images/1.4.0-keyboard-shortcuts.png)  
+
+**Added FAQ section in the Documentation modal**
+- Added a new FAQ with common questions/answers in the Documentation modal
+- Renamed the "Tips" section to "Tips & FAQ" 
+
+![FAQ section](./docs/images/1.4.0-documentation-faq.png)  
+
+**Improved update notification system**
+- Redesigned update checking with an improved messaging system that adapts based on update importance and timing
+- Implemented a persistent update reminder on the home screen for older versions the app after support period ends to help users stay current with the latest version
+
+![Update banner](./docs/images/1.4.0-update-banner.png)  
+
+### 🐛 Bug fixes
+**Fixed scaling glitch on Updates modal**
+- Fixed a visual glitch that would happen when opening and closing the "Check for Updates" modal
+
+**Fixed color swatches overlap issue**
+- Fixed color swatches overlapping with action buttons in Custom Color Presets and Custom Color Palettes modals for large palettes with a lot of swatches (the last few swatches from the first line would overlap with the Favorites button)
+
+### ⚙️ Maintenance
+- Dependencies updates
+
+---
+
 ## [1.3.1] - 2025-08-04
 
 ### ⚙️ Maintenance
