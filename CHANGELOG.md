@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2025-09-19
+
+### ✨ New Features
+
+**Improved color extraction (for the Original Image Colors option)**
+- Increased max. extracted colors from 16 to 32
+- Improved the color extraction algorithm to create better/more accurate palettes based on the original image colors
+- The app now uses the median cut algorithm for extracting colors, and k-means as a fallback
+
+![Color extraction](./docs/images/1.5.0-colors-extraction.png)
+
+**Added a few color palettes**
+- Added 8 new color palettes presets
+
+![New color palettes](./docs/images/1.5.0-new-color-palettes.png)
+
+### ⚙️ Maintenance
+- Updated dependencies
+
+---
+
 ## [1.4.0] - 2025-08-18
 
 ### ✨ New Features
