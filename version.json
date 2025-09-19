@@ -1,14 +1,14 @@
 {
-  "latest_version": "1.4.0",
-  "release_notes": "**New features:**\n• Automated color separation export: save each color in your image as a separate png with transparent background (for screenprinting and other applications)\n• New UI theme customization options in the Preferences menu! (7 base themes + 9 accent colors to choose from)\n\n**Changes/improvements:**\n• Ordered dithering (Bayer) color mapping improvements when using the Custom Palette option with 3 colors\n• Improved the Levels histogram to make it more accurate\n• Added a menu option that opens the app user guide (Help -> Documentation)\n• Added FAQ section in the Documentation modal\n• Enhanced update notification system\n• Added keyboard shortcuts list in Documentation modal\n\n**Bug fixes:**\n• Fixed a scaling glitch that was happening when opening and closing the Updates modal\n• Fixed custom palettes color swatches overlapping with action buttons in modal\n\n**Maintenance:**\n• Dependencies updates",
+  "latest_version": "1.5.0",
+  "release_notes": "**New features:**\n• Improved color extraction algorithm (original image colors option)\n• Added 8 new color palettes presets\n\n**Maintenance:**\n•Updated dependencies",
   "critical": false,
-  "release_date": "2025-08-18",
+  "release_date": "2025-09-19",
   "max_supported_age_days": 30,
-  "changelog_url": "https://github.com/Miks-KS/dithering-automator-updates/blob/main/CHANGELOG.md#140---2025-08-18",
+  "changelog_url": "https://github.com/Miks-KS/dithering-automator-updates/blob/main/CHANGELOG.md#150---2025-09-19",
   "download_info": {
     "source": "LemonSqueezy",
     "instructions": "Download the latest version from your LemonSqueezy account:\nhttps://app.lemonsqueezy.com/my-orders"
   },
   "update_message": "Info: this version is no longer supported",
-  "show_update_notice": true
+  "show_update_notice": false
 }
