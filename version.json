@@ -1,10 +1,10 @@
 {
-  "latest_version": "1.5.0",
-  "release_notes": "**New features:**\n• Improved color extraction algorithm (original image colors option)\n• Added 8 new color palettes presets\n\n**Maintenance:**\n•Updated dependencies",
+  "latest_version": "1.5.1",
+  "release_notes": "**Maintenance:**\n•Updated dependencies",
   "critical": false,
-  "release_date": "2025-09-19",
+  "release_date": "2025-09-29",
   "max_supported_age_days": 30,
-  "changelog_url": "https://github.com/Miks-KS/dithering-automator-updates/blob/main/CHANGELOG.md#150---2025-09-19",
+  "changelog_url": "https://github.com/Miks-KS/dithering-automator-updates/blob/main/CHANGELOG.md#151---2025-09-29",
   "download_info": {
     "source": "LemonSqueezy",
     "instructions": "Download the latest version from your LemonSqueezy account:\nhttps://app.lemonsqueezy.com/my-orders"
